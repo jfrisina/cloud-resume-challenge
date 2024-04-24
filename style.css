@@ -17,10 +17,15 @@ h1 {
 }
 h2 {
     margin-bottom: 0;
+    font-size: 1.4rem;
 }
 h3 {
-    margin-top: 0;
+    margin-top: ;
     margin-bottom: 0;
+    font-size: 1.1rem;
+}
+h2 + h3 {
+    margin-top: 0;
 }
 
 body {
@@ -47,5 +52,9 @@ li {
 .skill {
     display: inline-flex;
     margin: auto;
-    width: 50%;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
