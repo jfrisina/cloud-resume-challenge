@@ -1,0 +1,51 @@
+section {
+    padding: 0 5%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1, h2 {
+    color: #134f5c;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+h2 {
+    margin-bottom: 0;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+}
+.float-right {
+    float: right;
+}
+
+ul {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+.mt-0 {
+    margin-top: 0;
+}
+li {
+    font-size: 14px;
+}
+.skill {
+    display: inline-flex;
+    margin: auto;
+    width: 50%;
+}
