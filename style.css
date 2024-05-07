@@ -1,3 +1,7 @@
+container {
+    display: flex;
+    flex-wrap: wrap;
+}
 section {
     padding: 0 5%;
 }
@@ -27,6 +31,9 @@ h2 + h3 {
     margin-top: 0;
 }
 
+p {
+    margin-top: 0;
+}
 body {
     font-family: "Roboto", sans-serif;
     line-height: 1.5;
@@ -34,7 +41,6 @@ body {
 .float-right {
     float: right;
 }
-
 ul {
     margin-top: 0;
 }
@@ -45,7 +51,7 @@ ul {
 .mt-0 {
     margin-top: 0;
 }
-li {
+li, p {
     font-size: 14px;
 }
 .skill {
@@ -56,4 +62,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+a, a:visited {
+    color: #109090;
 }
